@@ -63,4 +63,6 @@ Projektteam: David Ignjatovic, Benjamin Besic, Bozidar Spasenovic
 
 <hr>
 
+## Unterschriften:
+
 ![Unterschriften](https://github.com/davidenkovic/Club-Recommender/blob/master/signing.png)
