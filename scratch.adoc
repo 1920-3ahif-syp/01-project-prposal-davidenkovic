@@ -1,0 +1,44 @@
+= Pflichtenheft MusicQuiz
+// Metadata
+:author: Benjamin Besic, David Ignjatovic, Bozidar Spasenovic
+:email:
+:date: yyyy-mm-dd
+:revision:  1.0
+// Settings
+:source-highlighter: coderay
+:icons: font
+//:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revision}
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+== Motivation
+Projekt wird im Rahmen des Gegenstandes „Projektentwicklung“ durchgeführt
+
+== Ausgangssituation
+Viele Leute hören sich täglich viele Songs an und wissen meist nichtmal welcher Interpret dahinter steckt.
+
+=== Ist-Zustand
+Es gibt viele denen langweilig ist und die gleichzeitig auch ein großes Wissen über Musik besitzen.
+
+== Zielsetzung
+=== Funktionale Anforderungen
+image::http://www.plantuml.com/plantuml/png/VOunhi8m44HxdsBB_ujS85Keg90GKawmmODZnTaWUzE0k1aT5oD6APsKC_DszPga77KUWmcuAUb4qRjUoVg8g_f9JDtUFG9YRNB3uWBeLptDkb1LqT_HY-CEP948ta4WTEOHyh-9jPCusKTEdxSaNPO2Tv07zu7i4Y-p30fAw3FqCZis-NJzObaX7SjWDhGocrC1BCWLw2t5eaG3iVCOlW00[Example]
+=== Nichtfunktionale Anforderungen
+* Usability, das GUI muss einfach zu benutzen sein
+* Reliability, Songs müssen abgespielt werden, alle Daten müssen immer eingetragen werden
+* Effizienz, es soll alles so effizient wie möglich gespeichert abgerufen werden
+* Performance, es soll 
+
+== Mengengerüst
+
+
+
