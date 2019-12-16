@@ -35,6 +35,26 @@ Das Ziel ist es eine Webapp zu machen, in der man Songs anhand von Hörproben er
 und eine dazugehöriges Punktesystem und in der Zukunft kann man auch gegen andere Benutzer
 spielen.
 
+=== Domain Object Model
+[plantuml,myCLD,png]
+----
+@startuml
+left to right direction
+class Player {
+  score int
+}
+class Game {
+  player1 Player
+  score1 int
+  player2 Player
+  score2 int
+}
+class Song
+Player --- Game :player 1
+Player --- Game :player 2
+@enduml
+----
+
 image::http://www.plantuml.com/plantuml/png/SoWkIImgAStDuV99JIjHACbNACfCpoXHICaiIaqkoSpFutBEIImkLWWko4pDKK3cf1R1UFbvwL1cG6bUTaagbEEUcfu7L0HLhA2h2vM6Y83uK2cu0CGea3wGUZkOF5G4heFB8JKl1UXa0000[Example]
 
 === Funktionale Anforderungen
